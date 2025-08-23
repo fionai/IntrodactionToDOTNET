@@ -10,7 +10,7 @@ namespace IntrodactionToDOTNET
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
 #if STRING_OPERATIONS
 
