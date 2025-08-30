@@ -57,7 +57,7 @@ namespace IntrodactionToDOTNET
 #endif
 
 #if FACTORIAL
-            ulong fact = 1;
+            long fact = 1;
             Console.Write("\n\nFactorial\nEnter a number from 0 to 21: ");
             short n = Convert.ToInt16(Console.ReadLine());
             while (n < 0 || n > 21)
@@ -67,7 +67,7 @@ namespace IntrodactionToDOTNET
             }
             for (int i = 1; i <= n; i++) 
             {
-                fact = fact * Convert.ToUInt64(i);
+                fact = fact * i;// Convert.ToUInt64(i);
                 Console.WriteLine($"{i} - {fact}");
             }
             Console.WriteLine($"Factorial of {n} is equal {fact}");

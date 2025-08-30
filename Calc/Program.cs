@@ -12,7 +12,7 @@ namespace Calc
         {
             Console.WriteLine("TO EXIT ENTER q OR Q\n\nEnter a 2-variables expression:");
             string expr;            //строка - выражение
-            string[] simbs;         //массив символов в выражении
+            string[] simbs;         //массив операндов в выражении
             double res;
 
             expr = Console.ReadLine();
